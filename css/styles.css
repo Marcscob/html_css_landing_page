@@ -129,7 +129,7 @@ body{
  flex-direction: column;
  align-items: center;
  max-width: 20%;
- color: var(--tertiari-color) ;
+ color: var(--tertiary-color) ;
 
 }
 
@@ -139,6 +139,56 @@ body{
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  margin-bottom: 1em;
-  background-color: gray;
+  
+}
+#benefit1{
+  background-image: url(../img/sqr-1.jpg);
+}
+#benefit2{
+  background-image: url(../img/sqr-2.jpg);
+}
+#benefit3{
+  background-image: url(../iMG/sqr-3.jpg);
+}
+#location{
+ height: 400px;
+  background: linear-gradient(rgba(46, 46, 46, 0.7), rgba(46, 46, 46, 0.7)),
+    url(../img/hrz-1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+  color: var(--text-color);
+  margin-bottom: 3em;
+}
+#address, #about-location{
+  max-width: 40%;
+  font-size: 1.5em;
+  
+}
+#address{
+ display: flex;
+  
+}
+#address i{
+ color: var(--primary-color);
+ font-size: 4em;
+ margin-right: 0.5em;
+}
+
+#address-details{
+ text-align: center ;
+ font-size: 1.3em;
+}
+#about-location h3{
+ color: var(--primary-color);
+ font-size: 2.5em;
+ margin-bottom: 0.5em;
+ text-transform: uppercase;
+}
+#about-location p{
+  line-height: 1.5em;
+}
+section#details{
 }
