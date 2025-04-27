@@ -1,118 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InDecor</title>
-    <!--css-->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!--googleFont-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!--icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-  </head>
-  <body>
-    <header id="event-description">
-      <div id="disclaimer">
-        <h2 class="title">InDecor</h2>
-        <p class="about-event">
-          Um evento para revolucionar a sua criatividade
-        </p>
-        <p>Data do evento:</p>
-        <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
-      </div>
-      <div id="form">
-        <p>Preencha o formulário para receber os detalhes do evento</p>
-        <form action="">
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Digite o seu email"
-              id=""
-            />
-          </div>
-          <div class="form-group">
-            <label for="phone">Telefone</label>
-            <input
-              type="text"
-              name="phone"
-              placeholder="Digite o seu telefone"
-              id=""
-            />
-          </div>
-          <div class="form-group">
-            <label for="interest">Principal Interesse</label>
-            <select name="interest">
-              <option value="selecionar" disabled selected>Selecionar</option>
-              <option value="apartment">Apartamentos</option>
-              <option value="houses">Casas</option>
-              <option value="offices">Escritórios</option>
-            </select>
-          </div>
-          <input type="submit" class="btn" value="Enviar" />
 
-          <div class="form-group privacy">
-            <label for="privacy-policy">
-              <input type="checkbox" name="privacy-policy" id="" />
-              Aceito os termos de uso e a política de privacidade
-            </label>
-          </div>
-        </form>
-      </div>
-    </header>
-    <section id="key-benefits">
-      <h2>O que você vai aprender</h2>
-      <div class="benefits">
-        <div class="benefit">
-          <div id="benefit1" class="benefit-img"></div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
-            consectetur perspiciatis.
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InDecor</title>
+  <!--css-->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!--googleFont-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <header id="event-description">
+    <div id="disclaimer">
+      <h2 class="title">InDecor</h2>
+      <p class="about-event">
+        Um evento para revolucionar a sua criatividade
+      </p>
+      <p>Data do evento:</p>
+      <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+    </div>
+    <div id="form">
+      <p>Preencha o formulário para receber os detalhes do evento</p>
+      <form action="">
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" placeholder="Digite o seu email" id="" />
         </div>
-        <div class="benefit">
-          <div id="benefit2" class="benefit-img"></div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
-            consectetur perspiciatis.
-          </p>
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="text" name="phone" placeholder="Digite o seu telefone" id="" />
         </div>
-        <div class="benefit">
-          <div id="benefit3" class="benefit-img"></div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
-            consectetur perspiciatis.
-          </p>
+        <div class="form-group">
+          <label for="interest">Principal Interesse</label>
+          <select name="interest">
+            <option value="selecionar" disabled selected>Selecionar</option>
+            <option value="apartment">Apartamentos</option>
+            <option value="houses">Casas</option>
+            <option value="offices">Escritórios</option>
+          </select>
         </div>
-      </div>
-    </section>
-    <section id="location">
-      <div id="address">
-        <i class="bi-geo-alt-fill"></i>
-        <div class="address-details">
-          <p>Rua dos Decoradores, 123 - Centro, São Paulo - SP</p>
-          <p>CEP: 01234-567</p>
-          <p>Telefone: (11) 98765-4321</p>
-          <p>Início: 14:00</p>
+        <input type="submit" class="btn" value="Enviar" />
+
+        <div class="form-group privacy">
+          <label for="privacy-policy">
+            <input type="checkbox" name="privacy-policy" id="" />
+            Aceito os termos de uso e a política de privacidade
+          </label>
         </div>
-      </div>
-      <div id="about-location">
-        <h3>Localização</h3>
+      </form>
+    </div>
+  </header>
+  <section id="key-benefits">
+    <h2>O que você vai aprender</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div id="benefit1" class="benefit-img"></div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-          voluptates mollitia quo.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
+          consectetur perspiciatis.
         </p>
       </div>
-    </section>
-  </body>
+      <div class="benefit">
+        <div id="benefit2" class="benefit-img"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
+          consectetur perspiciatis.
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit3" class="benefit-img"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla
+          consectetur perspiciatis.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="location">
+    <div id="address">
+      <i class="bi-geo-alt-fill"></i>
+      <div class="address-details">
+        <p>Rua dos Decoradores, 123 - Centro, São Paulo - SP</p>
+        <p>CEP: 01234-567</p>
+        <p>Telefone: (11) 98765-4321</p>
+        <p>Início: 14:00</p>
+      </div>
+    </div>
+    <div id="about-location">
+      <h3>Localização</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+        voluptates mollitia quo.
+      </p>
+    </div>
+  </section>
+  <section id="details">
+    <div class="detail" id="detail-1">
+      <img src="./img/hrz-3.jpg" alt="Sala decorada em tons claros">
+      <div class="detail-description">
+        <h3>Conheça os ambientes decorados</h3>
+
+      </div>
+
+    </div>
+    <div class="detail" id="detail-2">
+
+      <div class="detail-description">
+        <h3>Detalhes</h3>
+        <ul>
+          <li>Posicionamento</li>
+          <li>Aproveitamento de espaços</li>
+          <li>Combinação de cores</li>
+          <li>Organização</li>
+          <li>E muito mais...</li>
+        </ul>
+
+      </div>
+      <img src="./img/hrz-4.jpg" alt="Sala de jantar">
+    </div>
+    <div class="detail" id="detail-3">
+ <img src="./img/hrz-5.jpg" alt="Sala em tons escuros">
+      <div class="detail-description">
+       
+        <h3>Objetos</h3>
+        <ul>
+          <li>Cadeiras</li>
+          <li>Mesas</li>
+          <li>Espelhos</li>
+          <li>Plantas</li>
+          <li>E muito mais...</li>
+        </ul>
+
+      </div>
+      
+    </div>
+  </section>
+</body>
+
 </html>
